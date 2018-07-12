@@ -1,0 +1,39 @@
+<div  class="container" style="background-color:moccasin;" align="center">
+
+      <h1 style="margin-top:150px; color:red;" align="center">About Us</h1>
+        <font text-align="center">HK Company has been present on the Bosnian market since 2004 and has been privately owned since it has been founded. The headquarters of the company, the central warehouse and production is located in Visoko, near Sarajevo city. The entrance from highway A1 enable very simple access and parking of all types of vehicles.Other than the sale assortment, the company has its own service line with the possibility of quick and quality interventions even on the field. Our goal is to keep and constantly advance the existing satisfaction of the clients who are the core of all activity in the company. Also constantly follow and adopt new trends, improve the quality of services, take adequate care of the environment is our obligation.
+        </font>
+        <br>
+        <br>
+        <font>Today it employs approximately 60 qualified workers, it owns the entire necessary infrastructure, adequate business, warehouse and production premises, machine and motor pool and other necessary equipment for performing the business activities of the company. We are aware of the fact that the achieved high quality of services and the complete satisfaction of customers can be maintained only within the boundaries of an efficiently built and documented integrated system of quality management, and the Board of the company works intensively and studiously on the insurance of organizational terms for fulfilling high demands concerning the quality of our services and products intended for further sale.
+        </font>
+      </br>
+      </br>
+
+<div class="container">
+  <img class="mySlides" src="images/1-5.JPG"style="width:50%">
+  <img class="mySlides" src="images/1-3.png"style="width:50%">
+  <img class="mySlides" src="images/1-2.jpg"style="width:50%">
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
